@@ -69,6 +69,20 @@ The **PlacaGeral** is the carrier PCB that turns this project into a modular sys
 
 <img src="fotos%20pedal/WhatsApp%20Image%202025-12-02%20at%2018.11.16.jpeg" alt="amorph" width="350">
 
+---
+
+## Cartridge (module holder)
+
+Each effect module is mounted on a removable 3d printed Gameboy inspired **cartridge**, which provides mechanical support and keeps the 8-pin module interface consistent across pedals.
+
+This cartridge was adapted from an existing model available at **(link)** and then modified for this project (fit/clearance/alignment), including:
+- alignment tweaks for PCB-mounted pots / panel ergonomics
+- clearance changes to avoid collisions with tall components, and parts of the main board structure
+
+> Reference model: (link)
+
+---
+
 ## Power & safety notes
 
 - **Verify supply voltage (9V DC) and polarity** before connecting any power source.
@@ -76,7 +90,11 @@ The **PlacaGeral** is the carrier PCB that turns this project into a modular sys
   - Confirm electrolytic capacitor orientation.
   - Verify power supply polarity: the main board is **center-positive** oriented.
  
-## Hardware note (routing fix)
+## 3D printed structures notes
+
+It was necessary to modify the case of the **Main board** to accommodate the final board layout.
+ 
+## Electronics hardware notes
 
 During initial bring-up, the main board required a small routing correction: 
  - To properly route the **effect IN/OUT** of each module, it is necessary **cut two traces per pedal** (one affecting the input path and one affecting the output path).  

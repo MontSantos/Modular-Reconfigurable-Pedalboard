@@ -4,7 +4,7 @@ Current version includes two analog effect circuits: an **MXR-style Distortion+ 
 
 ---
 
-![Pedalboard photo](fotos%20pedal/WhatsApp%20Image%202025-12-11%20at%2019.27.27.jpeg)
+<img src="fotos%20pedal/WhatsApp%20Image%202025-12-11%20at%2019.27.27.jpeg" alt="Pedalboard photo" width="350">
 
 ---
 

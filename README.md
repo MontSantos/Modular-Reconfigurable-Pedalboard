@@ -76,7 +76,7 @@ The **PlacaGeral** is the carrier PCB that turns this project into a modular sys
 Each effect module is mounted on a removable 3d printed Gameboy inspired **cartridge**, which provides mechanical support and keeps the 8-pin module interface consistent across pedals.
 
 This cartridge was adapted from an existing model available at **(link)** and then modified for this project (fit/clearance/alignment), including:
-- alignment tweaks for PCB-mounted pots / panel ergonomics
+- alignment tweaks in order to support pedals PCBs.
 - clearance changes to avoid collisions with tall components, and parts of the main board structure
 
 Reference / inspiration:

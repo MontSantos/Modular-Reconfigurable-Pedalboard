@@ -22,6 +22,7 @@ Current version includes two analog effect circuits: an **MXR-style Distortion+ 
 
 ## Repository structure
 
+- `Imagens cartuchos/` - Presents the cover images and logos used to decorate the cartridges
 - `PlacaGeral/` — The **main board** (the “placão”): carrier/backplane PCB that hosts the modules and concentrates the shared wiring.
 - `Pedais/` — The **effect modules** (schematics/PCB files for Dizzy and Amorphous, and future modules).
 - `Modelos pedal/` — Mechanical assets (e.g., templates, outlines, 3D/visual models, and design references).

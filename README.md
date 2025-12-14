@@ -80,7 +80,7 @@ This cartridge was adapted from an existing model available at **(link)** and th
 - clearance changes to avoid collisions with tall components, and parts of the main board structure
 
 Reference / inspiration:
- - (link)
+ - [(link)](https://grabcad.com/library/original-gameboy-cartridge)
 
 ---
 
@@ -93,7 +93,7 @@ Reference / inspiration:
  
 ## 3D printed structures notes
 
-It was necessary to modify the case of the **Main board** to accommodate the final board layout.
+It was necessary to modify the case of the **Main board** to accommodate the final board layout. The front piece of the case was cut so the potentiometers could fit in the case. The removed piece was then put back in place once the circuit board was in position.
  
 ## Electronics hardware notes
 

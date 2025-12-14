@@ -20,9 +20,20 @@ Current version includes two analog effect circuits: an **MXR-style Distortion+ 
 
 ---
 
+## Repository structure
+
+- `PlacaGeral/` — The **main board** (the “placão”): carrier/backplane PCB that hosts the modules and concentrates the shared wiring.
+- `Pedais/` — The **effect modules** (schematics/PCB files for Dizzy and Amorphous, and future modules).
+- `Modelos pedal/` — Mechanical assets (e.g., templates, outlines, 3D/visual models, and design references).
+- `fotos pedal/` — Build photos and progress shots used in the README and documentation.
+  
+---
+
 ## Included effect modules
 
 ### 1) **Dizzy** - Silicon Fuzz Face–inspired fuzz 
+
+<img src="fotos%20pedal/WhatsApp%20Image%202025-12-11%20at%2019.24.14.jpeg" alt="dizzy" width="350">
 
 A two-transistor silicon fuzz, implemented with a **negative-ground** power scheme for easy integration with other pedal models.
 Great for raw, dirty and aggressive tones.
@@ -34,6 +45,9 @@ Reference / inspiration:
 
 ### 2) **Amorphous** - MXR-style distortion (Distortion+ inspired)
 
+
+<img src="fotos%20pedal/WhatsApp%20Image%202025-12-11%20at%2019.26.20.jpeg" alt="amorph" width="350">
+
 A classic op-amp gain stage with germanium diode clipping (the “raw” distortion character).  
 Useful for gritty tones.  
 
@@ -41,6 +55,19 @@ This module is nicknamed **Amorphous**, referencing how distortion/clipping turn
 
 Reference / inspiration:
 - Electrosmash analysis: https://www.electrosmash.com/mxr-distortion-plus-analysis
+
+## The **Main Board**
+
+The **PlacaGeral** is the carrier PCB that turns this project into a modular system. In practice, it works like a small “backplane” for pedals:
+
+- Provides **two module slots** (two 8-pin effect modules at the same time)
+- Routes **audio I/O** and keeps a consistent grounding scheme across modules
+- Distributes **9V DC power** to the modules (the main board is **center-positive** oriented — double-check before powering)
+- Offers a standardized mechanical/electrical base so modules can be swapped without rewiring the whole pedalboard
+
+> ⚠️ Many common pedal supplies are **center-negative**. Do **not** plug a standard center-negative supply into a center-positive board without an adapter/inverter — unless you want to release the magic smoke (and smell something funny).
+
+<img src="fotos%20pedal/WhatsApp%20Image%202025-12-02%20at%2018.11.16.jpeg" alt="amorph" width="350">
 
 ## Power & safety notes
 

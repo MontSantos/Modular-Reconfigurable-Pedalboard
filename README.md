@@ -79,7 +79,8 @@ This cartridge was adapted from an existing model available at **(link)** and th
 - alignment tweaks for PCB-mounted pots / panel ergonomics
 - clearance changes to avoid collisions with tall components, and parts of the main board structure
 
-> Reference model: (link)
+Reference / inspiration:
+ - (link)
 
 ---
 

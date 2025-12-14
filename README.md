@@ -78,11 +78,11 @@ The **PlacaGeral** is the carrier PCB that turns this project into a modular sys
  
 ## Hardware note (routing fix)
 
-During initial bring-up, the main board required a small routing correction.  
-To properly route the **effect IN/OUT** of each module, it is necessary **cut two traces per pedal** (one affecting the input path and one affecting the output path).  
-To fix the audio routing, the board was **rewired** (trace cuts + jumper wires) for each module’s input and output.
+During initial bring-up, the main board required a small routing correction: 
+ - To properly route the **effect IN/OUT** of each module, it is necessary **cut two traces per pedal** (one affecting the input path and one affecting the output path).  
+ - To fix the audio routing, the board was **rewired** (trace cuts + jumper wires) for each module’s input and output.
+ - Additionally, the two buffers were removed because they were not handling the signal swing correctly and ended up clipping the **negative half-cycle** of the waveform. This change restored a more symmetric signal path.
 This was a quick rework step applied on the assembled board and will be addressed in the next PCB revision.
-Additionally, the two buffers were removed because they were not handling the signal swing correctly and ended up clipping the **negative half-cycle** of the waveform. This change restored a more symmetric signal path.
 
 <img src="fotos%20pedal/WhatsApp%20Image%202025-12-11%20at%2019.14.57.jpeg" alt="amorph" width="350">
  

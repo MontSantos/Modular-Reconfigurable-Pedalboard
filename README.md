@@ -110,5 +110,5 @@ This was a quick rework step applied on the assembled board and will be addresse
 
 - **João Neto** — Pedal testing and validation **before** assembling the PCBs (pre print tests).
 - **Guilherme Santos** — Pedal testing and validation **before** assembling the PCBs (pre print tests); **PCB design**, **assembly**, and **final testing** of the system.
-- **Romulko Soli** — **3D modeling** (enclosure/mechanical models).
+- **Romulo Soli** — **3D modeling** (enclosure/mechanical models).
 - **Yanis** - 

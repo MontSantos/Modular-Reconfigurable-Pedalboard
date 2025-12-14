@@ -75,3 +75,19 @@ The **PlacaGeral** is the carrier PCB that turns this project into a modular sys
 - Before first power-up:
   - Confirm electrolytic capacitor orientation.
   - Verify power supply polarity: the main board is **center-positive** oriented.
+ 
+## Hardware note (routing fix)
+
+During initial bring-up, the main board required a small routing correction.  
+To properly route the **effect IN/OUT** of each module, it is necessary **cut two traces per pedal** (one affecting the input path and one affecting the output path).  
+To fix the audio routing, the board was **rewired** (trace cuts + jumper wires) for each module’s input and output.
+This was a quick rework step applied on the assembled board and will be addressed in the next PCB revision.
+
+<img src="fotos%20pedal/WhatsApp%20Image%202025-12-11%20at%2019.14.57.jpeg" alt="amorph" width="350">
+ 
+## Credits / Contributions
+
+- **João Neto** — Pedal testing and validation **before** assembling the main PCB (module-level tests).
+- **Guilherme Santos** — Pedal testing and validation **before** assembling the main PCB (module-level tests); **PCB design**, **assembly**, and **final testing** of the system.
+- **Romulko Soli** — **3D modeling** (enclosure/mechanical models).
+

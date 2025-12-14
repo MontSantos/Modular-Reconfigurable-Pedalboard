@@ -4,6 +4,10 @@ Current version includes two analog effect circuits: an **MXR-style Distortion+ 
 
 ---
 
+![Pedalboard overview](/main/fotos pedal/WhatsApp Image 2025-12-11 at 19.27.27.jpeg)
+
+---
+
 ## Features (current)
 
 - A modular board capable of hosting **two 8 pin effect modules** simultaneously
@@ -18,18 +22,29 @@ Current version includes two analog effect circuits: an **MXR-style Distortion+ 
 
 ## Included effect modules
 
-### 1) Silicon Fuzz Face–inspired fuzz
+### 1) **Dizzy** - Silicon Fuzz Face–inspired fuzz 
 
 A two-transistor silicon fuzz, implemented with a **negative-ground** power scheme for easy integration with other pedal models.
 Great for raw, dirty and aggressive tones.
 
+This module is nicknamed **Dizzy**, referencing the fuzz’s naturally **psychedelic, dizzy aesthetic**.
+
 Reference / inspiration:
 - Fuzz Central (Fuzz Face): https://fuzzcentral.ssguitar.com/fuzzface.php
 
-### 2) MXR-style distortion (Distortion+ inspired)
+### 2) **Amorphous** - MXR-style distortion (Distortion+ inspired)
 
 A classic op-amp gain stage with germanium diode clipping (the “raw” distortion character).  
 Useful for gritty tones.  
 
+This module is nicknamed **Amorphous**, referencing how distortion/clipping turns a clean waveform into a denser, less-defined shape.
+
 Reference / inspiration:
 - Electrosmash analysis: https://www.electrosmash.com/mxr-distortion-plus-analysis
+
+## Power & safety notes
+
+- **Verify supply voltage (9V DC) and polarity** before connecting any power source.
+- Before first power-up:
+  - Confirm electrolytic capacitor orientation.
+  - Verify power supply polarity: the main board is **center-positive** oriented.

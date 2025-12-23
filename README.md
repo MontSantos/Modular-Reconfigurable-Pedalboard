@@ -89,7 +89,7 @@ Reference / inspiration:
 
 - **Verify supply voltage (9V DC) and polarity** before connecting any power source.
 - Before first power-up:
-  - Confirm electrolytic capacitor orientation.
+  - Confirm electrolytic/tantalum capacitors orientations.
   - Verify power supply polarity: the main board is **center-positive** oriented.
  
 ## 3D printed structures notes
